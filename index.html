@@ -1,5 +1,3 @@
-Content-Security-Policy: allow 'self'; img-src data: childsplayimprov.com
-
 <!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
@@ -8,6 +6,9 @@ Content-Security-Policy: allow 'self'; img-src data: childsplayimprov.com
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta http-equiv="Content-Security-Policy" content="default-src *;
+         img-src * 'self' data: https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' *;
+         style-src  'self' 'unsafe-inline' *">
         <title>Child's Play Improv Comedy</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
