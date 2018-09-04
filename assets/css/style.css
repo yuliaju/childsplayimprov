@@ -358,7 +358,7 @@ Button
     border-radius: 50px;
     margin-top: 20px;
     background-color: #000;
-    transition: .5s;
+    transition: .5s; 
     border:1px solid #000;
 
 }
@@ -483,9 +483,9 @@ input::-ms-input-placeholder {
     padding-top: 0px;
     padding-bottom: 0px;
     position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+    top: 0; 
+    left: 0; 
+    right: 0; 
     z-index: 300;
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
@@ -517,8 +517,8 @@ input::-ms-input-placeholder {
     transition: all 0.3s;
 }
 .main_menu_bg .navbar-default {
-    background-color: transparent;
-    border-color: transparent;
+    background-color: transparent; 
+    border-color: transparent; 
     transition: all .3s;
     margin: 15px auto;
 }
@@ -559,8 +559,7 @@ input::-ms-input-placeholder {
 
 /*home section*/
 .main_home{
-    /* margin-top:85px; */
-    margin-top:155px;
+    margin-top:85px;
     padding: 140px 0px;
     position: relative;
 
@@ -582,11 +581,6 @@ input::-ms-input-placeholder {
 .single_home_slider{
     margin-top:70px;
     background:url(../images/homebg.jpg) no-repeat top center;
-    position: relative;
-}
-.home_banner{
-    margin-top:70px;
-    background:url(../images/newhomebg.jpg) no-repeat top center;
     position: relative;
 }
 .main_home_slider .owl-controls{
@@ -617,7 +611,7 @@ input::-ms-input-placeholder {
     -ms-transition: opacity 200ms ease;
     -o-transition: opacity 200ms ease;
     transition: opacity 200ms ease;
-    -webkit-border-radius: 0px;
+    -webkit-border-radius: 0px; 
     -moz-border-radius: 0px;
     border-radius: 0px;
     transform: rotate(45deg);
@@ -728,7 +722,7 @@ service section css
     font-size: 14px;
     line-height: 1.42857143;
     color: #fff;
-    background-color: transparent;
+    background-color: transparent; 
     background-image: none;
     border-top: 1px solid #555;
     border-radius: 0px;
@@ -1069,7 +1063,7 @@ ul li.filter{
 
 
 /*=======================================================================
-                    Cantact Us Page Style
+                    Cantact Us Page Style 
 =========================================================================*/
 
 .contactus .form-control{
